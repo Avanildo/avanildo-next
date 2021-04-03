@@ -24,7 +24,7 @@ read -n 1 msg
 if [ "$msg" = "1" ] 
     then
      echo -e "\nAguarde atualizando o servidor openshift... \n \n";
-      git add * ;git commit -m "Atualizacão em $data ";git push origin master ; echo -e "\n \n Programa atualizado no servidor em com susseso $data \n \n" 
+      git add * ;git commit -m "Atualizacão em $data ";git push ; echo -e "\n \n Programa atualizado no servidor em com susseso $data \n \n" 
    else 
       echo -e "\nAção cancelada pelo usuario obrigado"
 fi
